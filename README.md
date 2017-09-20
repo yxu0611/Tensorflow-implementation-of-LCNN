@@ -6,13 +6,14 @@ A Tensorflow implementation of [A Light CNN for Deep Face Representation with No
 	- The repository was built.
 - Sep 20, 2017
 	- Add model and evaluted code.
+	- Add training code.
 
 ## Datasets
 - Download face dataset [MS-Celeb-1M (Aligned)](http://www.msceleb.org/download/aligned).
 - All face images are RGB images and resize to **122x144** 
 
 ## Training 
-- Update soon
+- Add
 
 ## Evaluation
 - Add
