@@ -68,11 +68,7 @@ model_path = './model/Epoc_49_Iter_663.cpkt'
 M.loadSess(model_path, sess)
 
 def eval(img):
-	# bsize = img.shape[0]
-	# print (bsize)
 	res = sess.run(feature_layer, feed_dict={img_holder:img})
-	# res = np.reshape(res, [bsize, 512])
-
 	return res
 
 def __exit__():
