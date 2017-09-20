@@ -40,7 +40,7 @@ res = np.array(res)
 res = np.reshape(res, [13233, 512])
 print (res.shape)
 print (labs.shape)
-sio.savemat('LFW_feas_25.mat',{'data':res, 'label':labs})
+sio.savemat('LFW_feas.mat',{'data':res, 'label':labs})
 f.close()
 
 
