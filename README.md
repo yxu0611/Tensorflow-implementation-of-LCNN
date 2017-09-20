@@ -4,16 +4,21 @@ A Tensorflow implementation of [A Light CNN for Deep Face Representation with No
 ## Updates
 - Sep 19, 2017
 	- The repository was built.
+- Sep 20, 2017
+        - Add model and evaluted code
 
 ## Datasets
 - Download face dataset [MS-Celeb-1M (Aligned)](http://www.msceleb.org/download/aligned).
-- 10K identities clean list is uploaded: [One Drive](https://1drv.ms/t/s!AleP5K29t5x7ge87YS8Ue92h8JDDMw)
 - All face images are RGB images and resize to **122x144** 
-- The aligned LFW (122*144) images are uploaded on [One Drive](https://1drv.ms/u/s!AleP5K29t5x7ge88rngfpitnvpkZbw).
- 
 
 ## Training 
+- Update soon
+
 ## Evaluation
+- Add
+
 ## Performance
+- Obtain 98.36% accuracy on LFW
+
 ## References
 - [Original Light CNN implementation (caffe)](https://github.com/AlfredXiangWu/face_verification_experiment).
