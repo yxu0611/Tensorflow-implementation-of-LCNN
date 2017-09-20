@@ -96,7 +96,6 @@ class Model():
 
 	def accuracy(self, label):
 		self.res = L.accuracy(self.res, label, 'accuracy')
-		
 		return self.res
 
 
