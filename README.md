@@ -26,10 +26,10 @@ A Tensorflow implementation of [A Light CNN for Deep Face Representation with No
 ## Performance
 The Light CNN performance on lfw 6,000 pairs.   
 
-|   Model | ACC | 100% - EER | TPR@FAR=1% | TPR@FAR=0.1% | TPR@FAR=0 | 
+|   Model | 100% - EER | TPR@FAR=1%   | TPR@FAR=0.1%| TPR@FAR=0| 
 | :------- | :----: | :---: | :---: |:---: | 
-| LightCNN-29 (Wu Xiang) |   -	| 99.40% |    99.43%    |    98.67%  |    95.70%  | 
-| LightCNN-29 (Tensorflow)| 98.36% | 98.2% | 95.13% | 89.53% |
+| LightCNN-9| 98.70% | 98.47% | 95.13% | 89.53% |
+| LightCNN-29 | 99.40% |    99.43%    |    98.67%  |    95.70%  | 
 
 
 ## Referencs
