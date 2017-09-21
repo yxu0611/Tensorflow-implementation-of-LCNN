@@ -29,7 +29,7 @@ The Light CNN performance on lfw 6,000 pairs.
 |   Model | 100% - EER | TPR@FAR=1%   | TPR@FAR=0.1%| TPR@FAR=0| 
 | :------- | :----: | :---: | :---: |:---: | 
 | LightCNN-29 (Wu Xiang)| 99.40% | 99.43% | 98.67% | 95.70% |
-| LightCNN-29 (Tensorflow)| 98.2% |    -    |    -  |    -  | 
+| LightCNN-29 (Tensorflow)| 98.2% |    97.73    |    92.26  |    60.53  | 
 
 
 ## Referencs
