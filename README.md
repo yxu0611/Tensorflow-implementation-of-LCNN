@@ -32,5 +32,5 @@ The Light CNN performance on lfw 6,000 pairs.
 | LightCNN-29 (Tensorflow)| 98.36% | 98.2% | 95.13% | 89.53% |
 
 
-## References
+## Referencs
 - [Original Light CNN implementation (caffe)](https://github.com/AlfredXiangWu/face_verification_experiment).
