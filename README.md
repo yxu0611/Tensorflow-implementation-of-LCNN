@@ -32,6 +32,7 @@ The Light CNN performance on lfw 6,000 pairs.
 | LightCNN-29 (Tensorflow)|10K/- |Softmax|98.2% |    97.73%    |    92.26%  |    60.53%  | 
 | LightCNN-29 (Tensorflow)|10K/- |Softmax+L2|98.26% |    97.76%    |    95%  |    55.9%  | 
 | LightCNN-29 (Tensorflow)|10K/- |Softmax+L2+PCA|98.43% |    98.1%    |    94.26%  |    73.26%  | 
+| LightCNN-29 (Tensorflow)|10K/- |Softmax+L2+PCA|98.5% |    98.2%    |    96.06%  |    81.83%  |
 
 
 ## Referencs
