@@ -40,5 +40,6 @@ The Light CNN performance on lfw 6,000 pairs.
 | LightCNN-29 (Tensorflow)|70K/- |Softmax+L2(epoc=6)|98.48%	|98.4% |    97.83%    |    95.2%  |    78.96%  |
 | LightCNN-29 (Tensorflow)|70K/- |Softmax+L2+PCA(epoc=6)|98.51%	|98.5% |    97.83%    |    95.7%  |    80.7%  |
 | LightCNN-29 (Tensorflow)|70K/- |Softmax+L2+PCA(epoc=16)|99.03%	|98.9% |    98.9%    |    97.23%  |    92.7%  |
+| LightCNN-29 (Tensorflow)|70K/- |Softmax_enforce+L2+PCA|99.05%	|98.86% |    98.83%    |    97.53%  |    91.73%  |
 ## Referencs
 - [Original Light CNN implementation (caffe)](https://github.com/AlfredXiangWu/face_verification_experiment).
