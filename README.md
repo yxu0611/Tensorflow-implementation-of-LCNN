@@ -39,6 +39,7 @@ The Light CNN performance on lfw 6,000 pairs.
 | LightCNN-29 (Wu Xiang)| 70K/-	|Softmax|   -	|99.40% | 99.43% | 98.67% | 95.70% |
 | LightCNN-29 (Tensorflow)|70K/- |Softmax_enforce+L2+PCA|99.18%	|98.9% |    98.86%    |    97.9%  |    94.03%  |
 | LightCNN-29 (Tensorflow)|70K/- |Softmax_enforce+L2+PCA+[a]|99.45%	|99.43% |    99.63%    |    98.26%  |    92.13%  |
+| LightCNN-29 (Tensorflow)|70K/- |Softmax_enforce+L2+PCA+[a+b]|99.48%	|99.46% |    99.66%    |    97.9%  |    91.4%  |
 
 Some improved solutions:
 - [a] It can be further improved by manaully aligned these images which are mis-algined in LFW
