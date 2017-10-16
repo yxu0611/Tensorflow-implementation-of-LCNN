@@ -31,15 +31,14 @@ The Light CNN performance on lfw 6,000 pairs.
 | LightCNN-29 (Wu Xiang)| 70K/-	|Softmax|   -	|99.40% | 99.43% | 98.67% | 95.70% |
 | LightCNN-29 (Tensorflow)|10K/- |Softmax|98.36%	|98.2% |    97.73%    |    92.26%  |    60.53%  | 
 | LightCNN-29 (Tensorflow)|10K/- |Softmax+L2+PCA|98.76%	|98.66% |    98.36%    |    97%  |    79.33%  |
-| LightCNN-29 (Tensorflow)|10K/- |Softmax+L2+PCA+25crop|98.95%	|98.8% |    98.76%    |    97.16%  |    83.36%  |
-| LightCNN-29 (Tensorflow)|10K/- |Softmax_enforce+L2+PCA+25crop|99.01%	|98.96% |    98.96%    |    95.83%  |    90.23%  |
+| LightCNN-29 (Tensorflow)|10K/- |Softmax+L2+PCA+[b]|98.95%	|98.8% |    98.76%    |    97.16%  |    83.36%  |
+| LightCNN-29 (Tensorflow)|10K/- |Softmax_enforce+L2+PCA+[b]|99.01%	|98.96% |    98.96%    |    95.83%  |    90.23%  |
 
 |   Model | traing data	| method | Acc	|100% - EER | TPR@FAR=1%   | TPR@FAR=0.1%| TPR@FAR=0| 
 | :------- | :----: | :----: | :----:| :----: | :---: | :---: |:---: | 
 | LightCNN-29 (Wu Xiang)| 70K/-	|Softmax|   -	|99.40% | 99.43% | 98.67% | 95.70% |
 | LightCNN-29 (Tensorflow)|70K/- |Softmax_enforce+L2+PCA|99.18%	|98.9% |    98.86%    |    97.9%  |    94.03%  |
-| LightCNN-29 (Tensorflow)|70K/- |Softmax_enforce+L2+PCA+[a]|99.45%	|99.43% |    99.63%    |    98.26%  |    92.13%  |
-| LightCNN-29 (Tensorflow)|70K/- |Softmax_enforce+L2+PCA+[a+b]|99.48%	|99.46% |    99.66%    |    97.9%  |    91.4%  |
+| LightCNN-29 (Tensorflow)|70K/- |Softmax_enforce+L2+PCA+[a]|99.48%	|99.43% |    99.56%    |    98.26%  |    94.53%  |
 
 Some improved solutions:
 - [a] It can be further improved by manaully aligned these images which are mis-algined in LFW
