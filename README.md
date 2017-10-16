@@ -40,6 +40,7 @@ The Light CNN performance on lfw 6,000 pairs.
 | LightCNN-29 (Tensorflow)|70K/- |Softmax_enforce+L2+PCA|99.18%	|98.9% |    98.86%    |    97.9%  |    94.03%  |
 | LightCNN-29 (Tensorflow)|70K/- |Softmax_enforce+L2+PCA+[a]|99.48%	|99.43% |    99.56%    |    98.26%  |    94.53%  |
 
+
 Some improved solutions:
 - [a] It can be further improved by manaully aligned these images which are mis-algined in LFW
 - [b] It can be further improved by doing mutiple-crop, e.g. 25 crops for per image
