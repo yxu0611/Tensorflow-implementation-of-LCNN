@@ -37,17 +37,14 @@ The Light CNN performance on lfw 6,000 pairs.
 |   Model | traing data	| method | Acc	|100% - EER | TPR@FAR=1%   | TPR@FAR=0.1%| TPR@FAR=0| 
 | :------- | :----: | :----: | :----:| :----: | :---: | :---: |:---: | 
 | LightCNN-29 (Wu Xiang)| 70K/-	|Softmax|   -	|99.40% | 99.43% | 98.67% | 95.70% |
-| LightCNN-29 (Tensorflow)|70K/- |Softmax+L2(epoc=6)|98.48%	|98.4% |    97.83%    |    95.2%  |    78.96%  |
-| LightCNN-29 (Tensorflow)|70K/- |Softmax+L2+PCA(epoc=6)|98.51%	|98.5% |    97.83%    |    95.7%  |    80.7%  |
-| LightCNN-29 (Tensorflow)|70K/- |Softmax+L2+PCA(epoc=16)|99.03%	|98.9% |    98.9%    |    97.23%  |    92.7%  |
-| LightCNN-29 (Tensorflow)|70K/- |Softmax_enforce+L2+PCA|99.15%	|98.86% |    98.86%    |    97.76%  |    94.46%  |
 | LightCNN-29 (Tensorflow)|70K/- |Softmax_enforce+L2+PCA|99.18%	|98.9% |    98.86%    |    97.9%  |    94.03%  |
+| LightCNN-29 (Tensorflow)|70K/- |Softmax_enforce+L2+PCA+[a]|99.45%	|99.43% |    99.63%    |    98.26%  |    92.13%  |
 
 Some improved solutions:
-- It can be further improved by manaully aligned these images which are mis-algined in LFW
-- It can be further improved by doing mutiple-crop, e.g. 25 crops for per image
-- It can be further improved by ensemble different models
-- It can be further improved by adding metric learning method for similarity caculation
+- [a] It can be further improved by manaully aligned these images which are mis-algined in LFW
+- [b] It can be further improved by doing mutiple-crop, e.g. 25 crops for per image
+- [c] It can be further improved by ensemble different models
+- [d] It can be further improved by adding metric learning method for similarity caculation
 
 ## Referencs
 - [Original Light CNN implementation (caffe)](https://github.com/AlfredXiangWu/face_verification_experiment).
