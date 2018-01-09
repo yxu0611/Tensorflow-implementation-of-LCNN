@@ -2,6 +2,8 @@
 A Tensorflow implementation of [A Light CNN for Deep Face Representation with Noisy Labels](https://arxiv.org/abs/1511.02683) from the paper by Xiang Wu 
 
 ## Updates
+- Jan 9, 2018
+	- Add cleaned training list 10K and 70K.
 - Sep 20, 2017
 	- Add model and evaluted code.
 	- Add training code.
@@ -13,6 +15,7 @@ A Tensorflow implementation of [A Light CNN for Deep Face Representation with No
 - Training data
 	- Download face dataset [MS-Celeb-1M (Aligned)](http://www.msceleb.org/download/aligned).
 	- All face images are RGB images and resize to **122x144** 
+	- Download MS-Celeb-1M cleaned image_list [10K](https://1drv.ms/t/s!AleP5K29t5x7ge87YS8Ue92h8JDDMw), [70K](https://1drv.ms/t/s!AleP5K29t5x7gfEu_3My1D3lgDhLlQ)
 - Testing data
 	- Download aligned LFW (122*144) [images](https://1drv.ms/u/s!AleP5K29t5x7ge88rngfpitnvpkZbw) and [list](https://1drv.ms/t/s!AleP5K29t5x7ge9DV6jfHo392ONwCA)
 
