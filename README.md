@@ -20,7 +20,7 @@ A Tensorflow implementation of [A Light CNN for Deep Face Representation with No
 - Add
 
 ## Evaluation
-- Download [LCNN-29 model](https://1drv.ms/f/s!AleP5K29t5x7ge89GqB3Ue_Pe5rN3A), this model's performacen on LFW:98.2% (100%-EER)
+- Download [LCNN-29 model](https://1drv.ms/f/s!AleP5K29t5x7ge89GqB3Ue_Pe5rN3A), this model's performance on LFW:98.2% (100%-EER)
 - Download [LFW features](https://1drv.ms/u/s!AleP5K29t5x7ge9ElofW_tDzxCq5sw)
 
 ## Performance
